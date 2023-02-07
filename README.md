@@ -1,6 +1,6 @@
 # KNN-EC
 
-Code for EMNLP2022 paper: "**Efficient Nearest Neighbor Emotion Classification with BERT-whitening**"
+Code for EMNLP2022 paper: "**[Efficient Nearest Neighbor Emotion Classification with BERT-whitening](https://aclanthology.org/2022.emnlp-main.312/)**"
 
 ## Abstract
 
@@ -54,10 +54,18 @@ Visualization of sentence representations on GoEmotions.
 ## Citation
 
 ```
-@inproceedings{
-  title={Efficient Nearest Neighbor Emotion Classification with BERT-whitening},
-  author={Yin, Wenbiao and Shang, Lin},
-
+@inproceedings{yin-shang-2022-efficient,
+    title = "Efficient Nearest Neighbor Emotion Classification with {BERT}-whitening",
+    author = "Yin, Wenbiao  and
+      Shang, Lin",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.312",
+    pages = "4738--4745",
+    abstract = "Retrieval-based methods have been proven effective in many NLP tasks. Previous methods use representations from the pre-trained model for similarity search directly. However, the sentence representations from the pre-trained model like BERT perform poorly in retrieving semantically similar sentences, resulting in poor performance of the retrieval-based methods. In this paper, we propose kNN-EC, a simple and efficient non-parametric emotion classification (EC) method using nearest neighbor retrieval. We use BERT-whitening to get better sentence semantics, ensuring that nearest neighbor retrieval works. Meanwhile, BERT-whitening can also reduce memory storage of datastore and accelerate retrieval speed, solving the efficiency problem of the previous methods. kNN-EC average improves the pre-trained model by 1.17 F1-macro on two emotion classification datasets.",
 }
 ```
 
