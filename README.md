@@ -10,8 +10,7 @@ Retrieval-based methods have been proven effective in many NLP tasks. Previous m
 
 An overview of the proposed KNN-EC. The datastore stores the hidden representations of each sentence in the training data as keys and their corresponding labels as values. We use whitening transformation to enhance the isotropy of sentence representations and dimension reduction to optimize memory storage and accelerate retrieval speed. In inference, we use the whitening transformation on the test sentence's representation to retrieve the k nearest neighbors from the datastore. We interpolate the model and kNN distributions with a hyper-parameter $\lambda$ as the final distribution.
 
-![model.png](https://github.com/WenbiaoYin/KNN-EC/blob/master/png/model.png?raw=true)
-
+![model.png](https://github.com/WenbiaoYin/KNN-EC/blob/master/png/model.png?raw=true){:height="50%" width="50%"}
 ## Step of KNN-EC
 
 ### Step 1: Train your model and store the model's checkpoint
