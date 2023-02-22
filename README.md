@@ -17,7 +17,7 @@ An overview of the proposed KNN-EC. The datastore stores the hidden representati
 
 ### Step 2: Use the model's checkpoint to get the sentences‘ hidden embedding in the training set and then use the whitening transformation on them and then save them on datastore.
 
-<img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/BERT-whitening.jpg?raw=true" alt="BERT-whitening.jpg" style="zoom:80%;" />
+<img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/BERT-whitening.jpg?raw=true" alt="BERT-whitening.jpg" style="zoom:80%;" width="300px" />
 
 * Core code
 
@@ -46,7 +46,7 @@ Visualization of sentence representations on GoEmotions.
 
  (a) uses sentence representations from the fine-tuned RoBERTa without BERT-whitening, while (b) uses RoBERTa with BERT-whitening.
 
-<img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/Visualization.png?raw=true" alt="Visualization.png" style="zoom:80%;" width="100px" />
+![Visualization.png](https://github.com/WenbiaoYin/KNN-EC/blob/master/png/Visualization.png?raw=true)
 
 
 ## Citation
