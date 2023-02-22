@@ -46,8 +46,7 @@ Visualization of sentence representations on GoEmotions.
 
  (a) uses sentence representations from the fine-tuned RoBERTa without BERT-whitening, while (b) uses RoBERTa with BERT-whitening.
 
-![Visualization.png](https://github.com/WenbiaoYin/KNN-EC/blob/master/png/Visualization.png?raw=true=100x200)
-
+<img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/Visualization.png?raw=true" alt="Visualization.png" style="zoom:80%;" width="100px" />
 
 
 ## Citation
