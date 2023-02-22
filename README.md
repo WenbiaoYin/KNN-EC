@@ -17,7 +17,7 @@ An overview of the proposed KNN-EC. The datastore stores the hidden representati
 
 ### Step 2: Use the model's checkpoint to get the sentences‘ hidden embedding in the training set and then use the whitening transformation on them and then save them on datastore.
 
-<img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/BERT-whitening.jpg?raw=true" alt="BERT-whitening.jpg" style="zoom:80%;" width="300px" />
+<div align=center><img src="https://github.com/WenbiaoYin/KNN-EC/blob/master/png/BERT-whitening.jpg?raw=true" alt="BERT-whitening.jpg" style="zoom:80%;" width="400px" />
 
 * Core code
 
